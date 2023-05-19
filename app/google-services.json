@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "45925615248",
+    "project_id": "amarillo-limon-9377f",
+    "storage_bucket": "amarillo-limon-9377f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45925615248:android:7fb44816d53745aeadba15",
+        "android_client_info": {
+          "package_name": "com.lcarlosfb.amarillolimon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45925615248-cgmfihoue2fj0dajeg0mj8gma4t1aaep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lcarlosfb.amarillolimon",
+            "certificate_hash": "74fd150928760bf3ff39142abf3506e4cb1d6767"
+          }
+        },
+        {
+          "client_id": "45925615248-mr6ife3sj171rk5cpheesnjh4s1bqj29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJP2I--z8Zvs33V0JPRPcdYtTw2cX-BuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45925615248-mr6ife3sj171rk5cpheesnjh4s1bqj29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.lcarlosfb.amarillolimon.ui.main.home.HomeFragment"
+        android:label="@string/nav_graph_home_fragment_toolbar"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.lcarlosfb.amarillolimon.ui.main.cart.CartFragment"
+        android:label="@string/nav_graph_cart_fragment_toolbar"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.lcarlosfb.amarillolimon.ui.main.profile.ProfileFragment"
+        android:label="@string/nav_graph_profile_fragment_toolbar"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.lcarlosfb.amarillolimon.ui.main.favorites.FavoriteFragment"
+        android:label="@string/nav_graph_favorites_fragment_toolbar"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.lcarlosfb.amarillolimon.ui.main.category.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.lcarlosfb.amarillolimon.ui.main.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+</navigation>
