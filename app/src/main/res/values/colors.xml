@@ -10,5 +10,7 @@
     <color name="main">#D8E29C</color>
     <color name="main_secondary">#E3E6B6</color>
     <color name="title">#71705E</color>
+    <color name="background_cv_category">#0A7D8000</color>
+
 
 </resources>

@@ -95,7 +95,8 @@
             android:layout_marginTop="32dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/btnLoginIngresar"
-            tools:ignore="UseSwitchCompatOrMaterialXml" />
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            android:visibility="gone"/>
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
@@ -111,7 +112,8 @@
             android:text="@string/fragment_login_tv_recordar_cuenta"
             app:layout_constraintBottom_toBottomOf="@+id/swLoginRecordarCuenta"
             app:layout_constraintStart_toEndOf="@+id/swLoginRecordarCuenta"
-            app:layout_constraintTop_toTopOf="@+id/swLoginRecordarCuenta" />
+            app:layout_constraintTop_toTopOf="@+id/swLoginRecordarCuenta"
+            android:visibility="gone"/>
 
         <TextView
             android:id="@+id/tvCrearCuenta"

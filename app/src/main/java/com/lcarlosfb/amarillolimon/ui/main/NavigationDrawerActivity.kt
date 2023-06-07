@@ -14,6 +14,8 @@ import com.lcarlosfb.amarillolimon.R
 import com.lcarlosfb.amarillolimon.databinding.ActivityNavigationDrawerBinding
 //import com.lcarlosfb.amarillolimon.ui.main.databinding.ActivityNavigationDrawerBinding
 
+
+
 class NavigationDrawerActivity : AppCompatActivity() {
 
 	private lateinit var appBarConfiguration: AppBarConfiguration
@@ -40,6 +42,7 @@ class NavigationDrawerActivity : AppCompatActivity() {
 		)
 		setupActionBarWithNavController(navController, appBarConfiguration)
 		navView.setupWithNavController(navController)
+
 	}
 
 

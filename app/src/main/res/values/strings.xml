@@ -25,6 +25,19 @@
         <item>Femenino</item>
     </string-array>
 
+    <string-array name="cantidad">
+        <item>1u</item>
+        <item>2u</item>
+        <item>3u</item>
+        <item>4u</item>
+        <item>5u</item>
+        <item>6u</item>
+        <item>7u</item>
+        <item>8u</item>
+        <item>9u</item>
+        <item>10u</item>
+    </string-array>
+
     <string name="title_activity_navigation_drawer">Amarillo limon</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -44,6 +57,37 @@
     <string name="fragment_profile_tvemail">Email</string>
     <string name="activity_main_drawer_title_favorites">Favoritos</string>
     <string name="nav_graph_favorites_fragment_toolbar">Favoritos</string>
+    <string name="nav_graph_new_category_fragment_toolbar">Nueva categoria</string>
+    <string name="fragment_new_category_tvnewcategory_nuevacategoria">Nueva categoría</string>
+    <string name="fragment_new_category_edt_name_newcategory">Nombre de la nueva categoría</string>
+    <string name="fragment_new_category_btn_createnewcategory">Crear categoría</string>
+    <string name="card_view_category_item_tv_category">Categoria</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="card_view_product_item_tv_codigo">Cod: AMR01</string>
+    <string name="card_view_product_item_tv_short_description">Regalo motivo amor</string>
+    <string name="card_view_product_item_tv_price">$ 63000</string>
+    <string name="nav_graph_category_fragment_toolbar">Productos</string>
+    <string name="fragment_new_product_tv_new_product">Nuevo producto</string>
+    <string name="fragment_new_product_edt_id">Código del producto</string>
+    <string name="fragment_new_product_edt_short_description">Breve descripción</string>
+    <string name="fragment_new_product_edt_description">Descripción</string>
+    <string name="fragment_new_product_price">Precio</string>
+    <string name="fragment_new_product_btn_create_new_product">Crear producto</string>
+    <string name="nav_graph_new_product_fragment_toolbar">Nuevo producto</string>
+    <string name="fragment_detail_tv_short_codigo">Caja motivo amor AMR01</string>
+    <string name="fragment_detail_tv_price">$ 63000</string>
+    <string name="fragment_detail_tv_contiene">Contiene:</string>
+    <string name="fragment_detail_tv_description">Jugo de naranja recien exprimido\n Porcion de fruta\n Sandwich en pan artesanal\n Bebida caliente (café o té)\n Mini chocolates Montblanc\n Arreglo floral pequeño\n Mensaje personalizado\n Caja de carton</string>
+    <string name="fragment_detail_btn_añadir">Añadir a carrito</string>
+    <string name="card_view_cart_tv_delete">Eliminar</string>
+    <string name="card_view_cart_actv_cantidad">1u</string>
+    <string name="fragment_cart_tv_envio">Envío en Medellín   $ 9000</string>
+    <string name="fragment_cart_tv_total">Total con envío $ 135000</string>
+    <string name="fragment_cart_btn_comprar">Comprar carrito</string>
+    <string name="fragment_profile_btn_select">Select</string>
+    <string name="fragment_profile_btn_upload">Upload</string>
+    <string name="fragment_profile_btn_delete">Delete</string>
 </resources>
 
 
